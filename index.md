@@ -7,8 +7,6 @@ This GitHub Workshop is designed to introduce you to the basics of using GitHub 
 2. [Workshop Activites](#workshop-activities)
 3. [Useful Links](#useful-links)
 4. [Workshop Outline](#workshop-outline)
-   - [Part 1: GitHub Basics](#part-1-github-basics-slides)
-   - [Part 2: Branching and Personal Websites](#part-2-branching-and-personal-websites-slides)
 5. [Learning Objectives](#learning-objectives)
 6. [Prerequisites](#prerequisites)
 7. [Materials Needed](#materials-needed)
@@ -36,7 +34,7 @@ Throughout the workshop, you will learn how to:
 
 ## Workshop Outline
 
-### Part 1: GitHub Basics [(Slides)](Day_1.pptx)
+### GitHub Basics [(Slides)](Presentation.pptx)
 1. **Introduction to Version Control and GitHub**
    - Overview of version control and Git.
    - GitHub: navigating, viewing files, and understanding a README.md file.
@@ -47,29 +45,30 @@ Throughout the workshop, you will learn how to:
    - [Hands-on activity](Practice/1_setup.md): Setting up a repository.
    - Adding materials (README.md, codes, files) and making commits.
 
-3. **Cloning Repositories and Updating with GitHub Desktop GUI**
+3. **Using Git through Command Line**
+   - Introduction to terminal/command prompt basics
+   - Essential Git commands (init, add, commit, status)
+   - [Hands-on activity](Practice/2_command_line.md): Create and manage a repository using CLI
+   - Understanding .git directory and working directory
+
+4. **Cloning Repositories and Updating with GitHub Desktop GUI**
    - Introduction to cloning and updating on your local computer.
    - Using Push and Pull
-   - [Hands-on activity](Practice/2_cloning.md): Clone your repository and work on your local computer.
+   - [Hands-on activity](Practice/3_cloning.md): Clone your repository and work on your local computer.
 
-4. **Introduction to Collaboration**
+5. **Introduction to Collaboration**
    - Collaborating with pull/push requests.
-   - [Hands-on activity](Practice/3_collaborate.md): Collaborating with another participant and resolving a conflict.
+   - [Hands-on activity](Practice/4_collaborate.md): Collaborating with another participant and resolving a conflict.
 
-
-### Part 2: Branching and Personal Websites [(Slides)](Day_2.pptx)
-1. **Recap and Review**
-   - Quick recap of Part 1
-
-2. **Introduction to Branching**
+6. **Introduction to Branching**
    - What is branching?
    - How to use branching.
-   - [Hands-on activity](Practice/4_branching.md): Branching.
+   - [Hands-on activity](Practice/5_branching.md): Branching.
 
-3. **Creating a GitHub.io Personal Website**
+7. **Creating a GitHub.io Personal Website**
    - Introduction to GitHub Pages: turning repositories into static websites.
    - Demonstration of HTML and templates.
-   - [Hands-on activity](Practice/5_website.md): Publish a GitHub Pages website (`username.github.io`).
+   - [Hands-on activity](Practice/6_website.md): Publish a GitHub Pages website (`username.github.io`).
 
 ---
 
@@ -84,6 +83,7 @@ No prior experience with GitHub is required. During the workshop, participants w
 
 ## Materials Needed
 - A computer with internet access.
+- A terminal on your local computer.
 - A GitHub account ([sign up for free](https://github.com/)).
 - GitHub Desktop installed for local GUI activities ([Download here](https://desktop.github.com/)).
 
