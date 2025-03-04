@@ -26,9 +26,19 @@ brew install git
 - **For Windows**: Download from [git-scm.com](https://git-scm.com/download/win)
 
 
-## Step 2: Navigate to a Good Location
+## Step 2: Configure Your Username and Email
+*Be sure to use the same username and email you associated with your GitHub account!*
+
 1. **Open your terminal.**
-2. **Go to your Documents folder:**
+2. **Configure with the following commands:**
+```bash
+git config --global user.name "username" # Example: "cassandra-hui"
+git config --global user.email "user@edu.unr" 
+```
+
+
+## Step 3: Navigate to a Good Location
+1. **Go to your Documents folder:**
 ```bash
 # For Mac/Linux:
 cd ~/Documents
@@ -36,13 +46,13 @@ cd ~/Documents
 # For Windows:
 cd %USERPROFILE%\Documents
 ```
-3. **Create and enter a folder for your projects:**
+2. **Create and enter a folder for your projects:**
 ```bash
 mkdir GitProjects
 cd GitProjects
 ```
 
-## Step 3: Create Your Project
+## Step 4: Create Your Project
 1. **Create a new folder for this practice:**
 
 ```bash
@@ -57,7 +67,7 @@ git init
 ```
 - You’ll see: `Initialized empty Git repository in .../git-practice/.git/`.
 
-## Step 4: Create and Track a File
+## Step 5: Create and Track a File
 1. **Create a text file:**
 
 ```bash
@@ -71,7 +81,7 @@ git status
 ```
 - You’ll see `hello.txt` listed as an untracked file.
 
-## Step 5: Stage and Commit Changes
+## Step 6: Stage and Commit Changes
 1. **Stage the file:**
 
 ```bash
@@ -93,7 +103,7 @@ git status
 
 - It should say “nothing to commit, working tree clean.”
 
-## Step 6: Make a Change
+## Step 7: Make a Change
 1. **Edit the file:**
 - Add a new line manually (open `hello.txt` in any text editor) or use:
 
@@ -116,7 +126,7 @@ git commit -m "Update hello.txt with a new line"
 ```
 
 
-## Step 7: View Your History
+## Step 8: View Your History
 1. **See your commits:**
 
 ```bash
