@@ -3,7 +3,7 @@
 
 ## Step 1: Cloning the Repository
 
-1. Go to the following repository: [Cassandra's GitHub Workshop](https://github.com/cassandra-hui/GitHub-Workshop.git).
+1. Go to the following repository: [GitHub Workshop](https://github.com/Nevada-Bioinformatics-Center/GitHub-Workshop).
 2. Click the **Code** button (green button) you can copy the repository URL under the HTTPS option and manually enter it or click on **Open with GitHub Desktop**.
 3. Check the **Local Path** location is where you want the new file to be located.
 4. Click **Clone**.
